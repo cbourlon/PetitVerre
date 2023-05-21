@@ -11,7 +11,6 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <h1 className="text-3xl">hejsa</h1>
         <Switch>
           <Route exact path="/">
             <Frontpage />
