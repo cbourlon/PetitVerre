@@ -1,9 +1,10 @@
 import React from "react";
+import HermitDrinkingSection from "../components/FrontpageComponents/HermitDrinkingSection";
 
 function Frontpage() {
   return (
-    <div>
-      <h1>Frontpage</h1>
+    <div className="container">
+      <HermitDrinkingSection />
     </div>
   );
 }

@@ -5,6 +5,7 @@ import Beerpage from "./pages/Beerpage.jsx";
 import Aboutpage from "./pages/Aboutpage.jsx";
 import Contactpage from "./pages/Contactpage.jsx";
 import Header from "./components/Header.jsx";
+import Beertasting from "./pages/Beertasting.jsx";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/beers">
             <Beerpage />
+          </Route>
+          <Route path="/beertasting">
+            <Beertasting />
           </Route>
           <Route path="/contact">
             <Contactpage />

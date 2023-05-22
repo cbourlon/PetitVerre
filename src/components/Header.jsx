@@ -48,6 +48,15 @@ function Header() {
           </li>
           <li>
             <NavLink
+              to="/beertasting"
+              className="nav-link"
+              activeClassName="active-link"
+            >
+              Beer Tasting
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/about"
               className="nav-link"
               activeClassName="active-link"
