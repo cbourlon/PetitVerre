@@ -17,10 +17,9 @@ header {
   height: 100px;
   padding: 0 2rem;
   background-color: #ffffff;
-}
 
-ul {
-  display: flex;
+  z-index: 1000;
+  width: 100%;
 }
 
 nav a {
@@ -44,7 +43,8 @@ header .navbtn {
   border: none;
   outline: none;
   color: var(--textColor);
-  visibility: hidden;
+  /* visibility: hidden; */
+  display: none;
   opacity: 0;
   font-size: 1.8rem;
 }
@@ -54,11 +54,24 @@ nav {
   display: flex;
   align-items: center;
 }
+.menu-list {
+  display: flex;
+}
 
-@media only screen and (max-width: 976px) {
+@media only screen and (max-width: 768px) {
   header .navbtn {
-    visibility: visible;
+    /* visibility: visible; */
+    display: block;
     opacity: 1;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    position: absolute;
   }
 
   header nav {

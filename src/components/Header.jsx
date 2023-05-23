@@ -26,7 +26,7 @@ function Header() {
         />
       </NavLink>
       <nav ref={navRef}>
-        <ul>
+        <ul className="menu-list">
           <li>
             <NavLink
               exact

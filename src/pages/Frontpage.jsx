@@ -3,9 +3,9 @@ import HermitDrinkingSection from "../components/FrontpageComponents/HermitDrink
 
 function Frontpage() {
   return (
-    <div className="container">
+    <main className="container" style={{ margin: "0 auto" }}>
       <HermitDrinkingSection />
-    </div>
+    </main>
   );
 }
 export default Frontpage;
