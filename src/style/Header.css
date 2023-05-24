@@ -43,7 +43,9 @@ header .navbtn {
   border: none;
   outline: none;
   color: var(--textColor);
+  /* Den er der stadig, men bare usynlig */
   /* visibility: hidden; */
+  /* Fjerner den helt */
   display: none;
   opacity: 0;
   font-size: 1.8rem;
