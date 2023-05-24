@@ -26,6 +26,12 @@ module.exports = {
       AvenirRegular: ["Avenir", "Regular"],
     },
 
+    variants: {
+      extend: {
+        opacity: ["group-hover"],
+      },
+    },
+
     extend: {},
   },
   plugins: [],

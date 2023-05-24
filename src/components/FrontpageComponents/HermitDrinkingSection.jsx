@@ -1,9 +1,6 @@
 import React, { useEffect } from "react";
 import { useRef } from "react";
-import AniDrinkingHermit from "../FrontpageComponents/DrinkingHermit.mp4";
-import "./HermitDrinkingStyle.css";
-import Line from "./Line.png";
-
+import AniDrinkingHermit from "./FrontpageMedia/DrinkingHermit.mp4";
 function HermitDrinkingSection() {
   const videoRef = useRef(null);
 
@@ -28,7 +25,7 @@ function HermitDrinkingSection() {
         </div>
       </div>
 
-      <div className="DrinkingHermitAnimation xl:max-w-7xl md:max-w-lg md:max-w-lg md:right-0 md:top-0 md:z-0 md:absolute  md:px-0 md:pt-0 sm:px-4 sm:pt-10">
+      <div className="DrinkingHermitAnimation xl:max-w-7xl md:max-w-lg md:right-0 md:top-0 md:z-0 md:absolute  md:px-0 md:pt-0 sm:px-4 sm:pt-10">
         <video
           src={AniDrinkingHermit}
           ref={videoRef}

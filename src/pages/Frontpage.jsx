@@ -1,10 +1,22 @@
 import React from "react";
 import HermitDrinkingSection from "../components/FrontpageComponents/HermitDrinkingSection";
+import BeerPreviewSection from "../components/FrontpageComponents/BeerPreviewSection";
+import AboutSection from "../components/FrontpageComponents/AboutSection";
 
 function Frontpage() {
   return (
     <main className="container" style={{ margin: "0 auto" }}>
-      <HermitDrinkingSection />
+      <div className="HermitDrinkingSection md:pb-44">
+        <HermitDrinkingSection />
+      </div>
+
+      <div className="BeerPreviewSection md:pb-44">
+        <BeerPreviewSection />
+      </div>
+
+      <div className="AboutSection md:pb-44">
+        <AboutSection />
+      </div>
     </main>
   );
 }
