@@ -6,7 +6,7 @@ import CTAbutton from "../CTAbutton";
 
 function BeerPreviewSection() {
   return (
-    <div className="main  sm:pt-20 sm:pb-20">
+    <div className="main  sm:pt-28 sm:pb-20 md:pt-48 lg:pt-40">
       <div className="Overskrifter text-white text-center sm:pb-5">
         <div className="overskrift font-Ermitial sm:text-3xl md:text-5xl lg:text-6xl xl:text-8xl">
           <h1>VINOUS, POWERFUL, MAGICAL</h1>
@@ -52,7 +52,7 @@ function BeerPreviewSection() {
         </div>
       </div>
 
-      <div className="exploreButton flex justify-center sm:pt-5">
+      <div className="exploreButton flex justify-center ">
         <CTAbutton buttonText="EXPLORE" to="/beers" />
       </div>
     </div>

@@ -10,11 +10,11 @@ function Frontpage() {
         <HermitDrinkingSection />
       </div>
 
-      <div className="BeerPreviewSection md:pb-44">
+      <div className="BeerPreviewSection md:pb-20">
         <BeerPreviewSection />
       </div>
 
-      <div className="AboutSection md:pb-44">
+      <div className="AboutSection md:pb-20">
         <AboutSection />
       </div>
     </main>
