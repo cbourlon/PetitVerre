@@ -6,7 +6,7 @@ import "../style/FilterMenu.css";
 function FilterMenu() {
   return (
     <div className="main text-white">
-      <div className="filtermenu  font-AvenirMedium flex sm:flex-row sm:space-x-10 sm:justify-center md:text-xl md:space-x-16 lg:text-2xl lg:space-x-24 xl:flex-col xl:items-start xl:space-x-0 xl:space-y-4 xl:text-xl xl:pl-4">
+      <div className="filtermenu  font-AvenirMedium flex sm:text-xl sm:flex-row sm:space-x-12 sm:justify-center md:text-2xl md:space-x-20 lg:text-2xl lg:space-x-24 ">
         <button className="hover:opacity-70">All</button>
         <button className="hover:opacity-70">Beers</button>
         <button className="hover:opacity-70">Tastingbox</button>
