@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { Frontpage } from "../pages/Frontpage.jsx";
 import { Aboutpage } from "../pages/Aboutpage.jsx";
-import { Beerpage } from "../pages/Beerpage.jsx";
+import { Beerpage } from "../pages/Productpage.jsx";
 import { Contactpage } from "../pages/Contactpage.jsx";
 import "../style/Header.css";
 
@@ -39,11 +39,11 @@ function Header() {
           </li>
           <li>
             <NavLink
-              to="/beers"
+              to="/products"
               className="nav-link"
               activeClassName="active-link"
             >
-              Beers
+              Products
             </NavLink>
           </li>
           <li>

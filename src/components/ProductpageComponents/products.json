@@ -1,0 +1,168 @@
+{
+  "Beers": [
+    {
+      "name": "NIGREDO",
+      "beerImage": "./ProductpageMedia/Nigredo.png",
+      "beerColor": "#605F5D",
+      "beerTaste": "TART CHERRY DOUBLE DARK SOUR",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "8,0%",
+      "beerIngredients": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerPrice": "53 DKK"
+    },
+
+    {
+      "name": "THEOREME DE L'EMPEREUR",
+      "beerImage": "./ProductpageMedia/Theoreme.png",
+      "beerColor": "#4FB1AC",
+      "beerTaste": "JASMINE TEA PALE ALE",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "6,4%",
+      "beerIngredients": "Eau, Malt, D'orge, Houblons, The Vert, Jasmin, Levure, Sucre",
+      "beerPrice": "37 DKK"
+    },
+
+    {
+      "name": "BLACK HOPE",
+      "beerImage": "./ProductpageMedia/BlackHope.png",
+      "beerColor": "#AAA7A7",
+      "beerTaste": "SESSION BLACK IPA",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "4,6%",
+      "beerIngredients": "Eau, Malt, D'orge, Houblons,Levure, Sucre",
+      "beerPrice": "35 DKK"
+    },
+
+    {
+      "name": "THE SOUR BEFORE CHRISTMAS",
+      "beerImage": "./ProductpageMedia/Christmas.png",
+      "beerColor": "#4C6028",
+      "beerTaste": "CHRISTMAS SOUR",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "5,4%",
+      "beerIngredients": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerPrice": "37 DKK"
+    },
+
+    {
+      "name": "LANTERNE",
+      "beerImage": "./ProductpageMedia/Lanterne.png",
+      "beerColor": "#19617A",
+      "beerTaste": "PALE ALE",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "5,5%",
+      "beerIngredients": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerPrice": "35 DKK"
+    },
+
+    {
+      "name": "NOIRE DU MIDI",
+      "beerImage": "./ProductpageMedia/Noire.png",
+      "beerColor": "#5C5277",
+      "beerTaste": "HOPPY PORTER",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "6,9%",
+      "beerIngredients": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerPrice": "36 DKK"
+    },
+
+    {
+      "name": "CALIFORNICATION",
+      "beerImage": "./ProductpageMedia/Californication.png",
+      "beerColor": "#7C375B",
+      "beerTaste": "WEST COAST DOUBLE IPA",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "8,0%",
+      "beerIngredients": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerPrice": "42 DKK"
+    },
+
+    {
+      "name": "BRUXELLES MA BELLE",
+      "beerImage": "./ProductpageMedia/Bruxelles.png",
+      "beerColor": "#919BAB",
+      "beerTaste": "PALE ALE",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "5,0%",
+      "beerIngredients": "Eau, Malt, D'orge, Houblons, Levure",
+      "beerPrice": "37 DKK"
+    },
+
+    {
+      "name": "SOUR KRUMP",
+      "beerImage": "./ProductpageMedia/SourKrump.png",
+      "beerColor": "#D3918D",
+      "beerTaste": "CITRUS SOUR",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "4,2%",
+      "beerIngredients": "Eau, Malt, Blé, Clementine, Bergamotte, Pomelo, D'orge, Houblons",
+      "beerPrice": "40 DKK"
+    },
+
+    {
+      "name": "JURASSIC",
+      "beerImage": "./ProductpageMedia/Jurassic.png",
+      "beerColor": "#D7CBAF",
+      "beerTaste": "INDIA PALE ALE",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "7,5%",
+      "beerIngredients": "Eau, Malt, D'orge, Avoine, Houblons, Levure, Blé, Sucre",
+      "beerPrice": "40 DKK"
+    },
+
+    {
+      "name": "HÖPZI",
+      "beerImage": "./ProductpageMedia/Hopzi.png",
+      "beerColor": "#A5C4C5",
+      "beerTaste": "INDIA PALE ALE",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "6,0%",
+      "beerIngredients": "Eau, Malt, D'orge, Griottes, Houblons, Levure",
+      "beerPrice": "40 DKK"
+    }
+  ],
+
+  "Glasses": [
+    {
+      "bigGlassVolume": "33cl",
+      "bigGlassPrice": "50 DKK"
+    },
+
+    {
+      "mediumGlassVolume": "25cl",
+      "mediumGlassPrice": "40 DKK"
+    },
+
+    {
+      "smallGlassVolume": "12,5cl",
+      "smallGlassPrice": "30 DKK"
+    }
+  ],
+
+  "Tastingbox": [
+    {
+      "variant": "TASTINGBOX I",
+      "beerAmount": "6 BEERS",
+      "beerTypes": "Bruxelles Ma Belle, Lanterne, Theoreme de l'Emepereur, Californicaation, The Sour Before Christmas, Nigredo",
+      "price": "229 DKK"
+    },
+
+    {
+      "variant": "TASTINGBOX II",
+      "beerAmount": "24 BEERS",
+      "beerTypes": "2 of each beer in the list",
+      "price": "775 DKK"
+    }
+  ]
+}

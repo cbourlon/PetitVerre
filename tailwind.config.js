@@ -14,6 +14,17 @@ module.exports = {
       white: "#FFFFFF",
       orange: "#D9623F",
       grey: "#808080",
+      "#605F5D": "#605F5D",
+      "#4FB1AC": "#4FB1AC",
+      "#AAA7A7": "#AAA7A7",
+      "#4C6028": "#4C6028",
+      "#19617A": "#19617A",
+      "#5C5277": "#5C5277",
+      "#7C375B": "#7C375B",
+      "#919BAB": "#919BAB",
+      "#D3918D": "#D3918D",
+      "#D7CBAF": "#D7CBAF",
+      "#A5C4C5": "#A5C4C5",
     },
 
     fontFamily: {
