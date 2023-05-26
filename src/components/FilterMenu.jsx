@@ -8,6 +8,7 @@ import Beers from "./ProductpageComponents/Beers";
 import Goodies from "./ProductpageComponents/Goodies";
 import TastingBox from "./ProductpageComponents/TastingBox";
 import { useLocation } from "react-router-dom";
+
 export function useQueryParams() {
   //Kigger på URL'en og leder efter parametrene "?filter=all" (se billede)
   const search = useLocation().search;
@@ -23,11 +24,6 @@ export function useQueryParams() {
 //  const filter = "all"
 
 function FilterMenu({ onCategoryChange }) {
-  const [selectedCategory, setSelectedCategory] = useState("all"); //Skal starte fra all
-  const handleCategoryChange = (category) => {
-    setSelectedCategory(category);
-  };
-
   const param = useQueryParams(); //Gemmer den i variablen param ved at kalde funktionen
   useEffect(() => {
     //Param'en ændrer sig hver gang, så kører vi useEffekten
@@ -38,9 +34,8 @@ function FilterMenu({ onCategoryChange }) {
       <div className="filtermenu  font-AvenirMedium flex sm:text-xl sm:flex-row sm:space-x-12 sm:justify-center md:text-2xl md:space-x-20 lg:text-2xl lg:space-x-24 ">
         <Link
           className={`hover:opacity-70 ${
-            selectedCategory === "all" && "active"
+            param === "All" ? "text-orange font-AvenirHeavy" : ""
           }`}
-          onClick={() => handleCategoryChange(<AllProducts />)}
           to="?filter=All"
         >
           All
@@ -48,9 +43,8 @@ function FilterMenu({ onCategoryChange }) {
 
         <Link
           className={`hover:opacity-70 ${
-            selectedCategory === "beers" && "active"
+            param === "Beers" ? "text-orange font-AvenirHeavy" : ""
           }`}
-          onClick={() => handleCategoryChange(<Beers />)}
           to="?filter=Beers"
         >
           Beers
@@ -58,9 +52,8 @@ function FilterMenu({ onCategoryChange }) {
 
         <Link
           className={`hover:opacity-70 ${
-            selectedCategory === "tastingbox" && "active"
+            param === "Tastingbox" ? "text-orange font-AvenirHeavy" : ""
           }`}
-          onClick={() => handleCategoryChange(<TastingBox />)}
           to="?filter=Tastingbox"
         >
           Tastingbox
@@ -68,9 +61,8 @@ function FilterMenu({ onCategoryChange }) {
 
         <Link
           className={`hover:opacity-70 ${
-            selectedCategory === "goodies" && "active"
+            param === "Goodies" ? "text-orange font-AvenirHeavy" : ""
           }`}
-          onClick={() => handleCategoryChange(<Goodies />)}
           to="?filter=Goodies"
         >
           Goodies
