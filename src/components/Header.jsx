@@ -39,7 +39,7 @@ function Header() {
           </li>
           <li>
             <NavLink
-              to="/products"
+              to="/products?filter=All"
               className="nav-link"
               activeClassName="active-link"
             >

@@ -2,8 +2,8 @@
   "Beers": [
     {
       "name": "NIGREDO",
-      "beerImage": "./ProductpageMedia/Nigredo.png",
-      "beerColor": "#605F5D",
+      "beerImage": "ProductpageMedia/Nigredo.png",
+      "beerColor": "text-nigredo",
       "beerTaste": "TART CHERRY DOUBLE DARK SOUR",
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",
@@ -14,8 +14,8 @@
 
     {
       "name": "THEOREME DE L'EMPEREUR",
-      "beerImage": "./ProductpageMedia/Theoreme.png",
-      "beerColor": "#4FB1AC",
+      "beerImage": "ProductpageMedia/Theoreme.png",
+      "beerColor": "text-theoremeColor",
       "beerTaste": "JASMINE TEA PALE ALE",
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",
@@ -26,8 +26,8 @@
 
     {
       "name": "BLACK HOPE",
-      "beerImage": "./ProductpageMedia/BlackHope.png",
-      "beerColor": "#AAA7A7",
+      "beerImage": "ProductpageMedia/BlackHope.png",
+      "beerColor": "text-blackhopeColor",
       "beerTaste": "SESSION BLACK IPA",
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",
@@ -39,7 +39,7 @@
     {
       "name": "THE SOUR BEFORE CHRISTMAS",
       "beerImage": "./ProductpageMedia/Christmas.png",
-      "beerColor": "#4C6028",
+      "beerColor": "text-christmasColor",
       "beerTaste": "CHRISTMAS SOUR",
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",
@@ -51,7 +51,7 @@
     {
       "name": "LANTERNE",
       "beerImage": "./ProductpageMedia/Lanterne.png",
-      "beerColor": "#19617A",
+      "beerColor": "text-lanterneColor",
       "beerTaste": "PALE ALE",
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",
@@ -63,7 +63,7 @@
     {
       "name": "NOIRE DU MIDI",
       "beerImage": "./ProductpageMedia/Noire.png",
-      "beerColor": "#5C5277",
+      "beerColor": "text-noireColor",
       "beerTaste": "HOPPY PORTER",
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",
@@ -75,7 +75,7 @@
     {
       "name": "CALIFORNICATION",
       "beerImage": "./ProductpageMedia/Californication.png",
-      "beerColor": "#7C375B",
+      "beerColor": "text-californicationColor",
       "beerTaste": "WEST COAST DOUBLE IPA",
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",
@@ -87,7 +87,7 @@
     {
       "name": "BRUXELLES MA BELLE",
       "beerImage": "./ProductpageMedia/Bruxelles.png",
-      "beerColor": "#919BAB",
+      "beerColor": "text-bruxellesColor",
       "beerTaste": "PALE ALE",
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",
@@ -99,7 +99,7 @@
     {
       "name": "SOUR KRUMP",
       "beerImage": "./ProductpageMedia/SourKrump.png",
-      "beerColor": "#D3918D",
+      "beerColor": "text-sourkrumpColor",
       "beerTaste": "CITRUS SOUR",
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",
@@ -111,7 +111,7 @@
     {
       "name": "JURASSIC",
       "beerImage": "./ProductpageMedia/Jurassic.png",
-      "beerColor": "#D7CBAF",
+      "beerColor": "text-jurassicColor",
       "beerTaste": "INDIA PALE ALE",
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",
@@ -123,7 +123,7 @@
     {
       "name": "HÖPZI",
       "beerImage": "./ProductpageMedia/Hopzi.png",
-      "beerColor": "#A5C4C5",
+      "beerColor": "text-hopziColor",
       "beerTaste": "INDIA PALE ALE",
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",

@@ -1,11 +1,8 @@
 import React from "react";
+import BeerComponent from "../BeerComponent";
 
 function Beers() {
-  return (
-    <div className="tekst">
-      <h1>Beers</h1>
-    </div>
-  );
+  return <BeerComponent />;
 }
 
 export default Beers;
