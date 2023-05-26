@@ -1,9 +1,13 @@
 import React from "react";
+import BeerComponent from "../BeerComponent";
+import TastingboxComponent from "../TastingboxComponent";
 
 function AllProducts() {
   return (
-    <div>
-      <h1>all products</h1>
+    <div className="">
+      <BeerComponent />
+
+      <TastingboxComponent />
     </div>
   );
 }

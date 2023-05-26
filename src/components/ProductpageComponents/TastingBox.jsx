@@ -1,9 +1,10 @@
 import React from "react";
+import TastingboxComponent from "../TastingboxComponent";
 
 function TastingBox() {
   return (
-    <div className="tekst">
-      <h1>TastingBox</h1>
+    <div>
+      <TastingboxComponent />
     </div>
   );
 }

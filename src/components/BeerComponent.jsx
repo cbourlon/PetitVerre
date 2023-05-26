@@ -5,15 +5,14 @@ import OrderButton from "./OrderButton";
 
 function BeerComponent() {
   return (
-    <div className="flex flex-col pt-20 px-10 ">
+    <div className="flex flex-col px-10 ">
       {data.Beers.map((item, i) => {
-        console.log(item);
         return (
           <div
             key={i}
-            className="content pb-20 sm:pt-10 lg:pt-20 lg:flex lg:flex-row lg:space-x-20 xl:space-x-28 xl:px-52 lg:border-b-2  border-y-grey"
+            className=" content pb-20 sm:pt-10 lg:pt-20 lg:flex lg:flex-row lg:space-x-20 xl:space-x-28 xl:px-52 lg:border-b-2  border-y-grey"
           >
-            <div className="img flex justify-center pb-5 lg:w-80 lg:h-80 xl:w-96 xl:h-96">
+            <div className="img flex justify-center pb-5 lg:w-80 lg:h-80 xl:w-80 xl:h-80">
               <img src={item.beerImage} alt="" />
             </div>
 

@@ -31,7 +31,7 @@ function FilterMenu({ onCategoryChange }) {
   }, [param]);
   return (
     <div className="main text-white">
-      <div className="filtermenu  font-AvenirMedium flex sm:text-xl sm:flex-row sm:space-x-12 sm:justify-center md:text-2xl md:space-x-20 lg:text-2xl lg:space-x-24 ">
+      <div className="filtermenu  font-AvenirMedium flex sm:text-xl sm:flex-row sm:space-x-12 sm:justify-center md:text-2xl md:space-x-20 lg:text-2xl lg:space-x-24 sm:pb-10 md:pb-20 lg:pb-24">
         <Link
           className={`hover:opacity-70 ${
             param === "All" ? "text-orange font-AvenirHeavy" : ""

@@ -153,16 +153,24 @@
   "Tastingbox": [
     {
       "variant": "TASTINGBOX I",
+      "tastingboxImage": "./ProductpageMedia/Tastingbox.png",
       "beerAmount": "6 BEERS",
       "beerTypes": "Bruxelles Ma Belle, Lanterne, Theoreme de l'Emepereur, Californicaation, The Sour Before Christmas, Nigredo",
-      "price": "229 DKK"
+      "price": "229 DKK",
+      "extraDeal": "1 glass of your choice",
+      "extraDealPrice": "+25 DKK"
     },
 
     {
       "variant": "TASTINGBOX II",
+      "tastingboxImage": "./ProductpageMedia/Tastingbox.png",
       "beerAmount": "24 BEERS",
       "beerTypes": "2 of each beer in the list",
-      "price": "775 DKK"
+      "priceBeforeDiscount": "912 DKK",
+      "discountPercentage": "-15%",
+      "price": "775 DKK",
+      "extraDeal": "1 glass of your choice",
+      "extraDealPrice": "+20 DKK"
     }
   ]
 }
