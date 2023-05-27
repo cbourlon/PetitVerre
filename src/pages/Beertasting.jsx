@@ -1,9 +1,7 @@
+import PrivateTastingSection from "../components/PrivateTastingComponents/PrivateTastingSection";
+
 function Beertasting() {
-  return (
-    <div>
-      <h1>Beertasting</h1>
-    </div>
-  );
+  return <PrivateTastingSection />;
 }
 
 export default Beertasting;
