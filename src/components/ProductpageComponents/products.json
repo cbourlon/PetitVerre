@@ -135,18 +135,26 @@
 
   "Glasses": [
     {
-      "bigGlassVolume": "33cl",
-      "bigGlassPrice": "50 DKK"
+      "glassType": "SMALL GLASS",
+      "GlassText": "Small Glass",
+      "GlassVolume": "12,5cl",
+      "GlassPrice": "30 DKK",
+      "GlassImg": "./ProductpageMedia/smallGlass.png"
     },
 
     {
-      "mediumGlassVolume": "25cl",
-      "mediumGlassPrice": "40 DKK"
+      "glassType": "MEDIUM GLASS",
+      "GlassText": "Medium Glass",
+      "GlassVolume": "25cl",
+      "GlassPrice": "40 DKK",
+      "GlassImg": "./ProductpageMedia/mediumGlass.png"
     },
 
     {
-      "smallGlassVolume": "12,5cl",
-      "smallGlassPrice": "30 DKK"
+      "glassType": "LARGE GLASS",
+      "GlassVolume": "33cl",
+      "GlassPrice": "50 DKK",
+      "GlassImg": "./ProductpageMedia/largeGlass.png"
     }
   ],
 

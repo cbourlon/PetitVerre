@@ -1,9 +1,10 @@
 import React from "react";
+import GlassesComponent from "../GlassesComponent";
 
 function Goodies() {
   return (
-    <div className="tekst">
-      <h1>Goodies</h1>
+    <div className="">
+      <GlassesComponent />
     </div>
   );
 }

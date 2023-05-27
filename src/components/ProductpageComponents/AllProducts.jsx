@@ -1,6 +1,7 @@
 import React from "react";
 import BeerComponent from "../BeerComponent";
 import TastingboxComponent from "../TastingboxComponent";
+import GlassesComponent from "../GlassesComponent";
 
 function AllProducts() {
   return (
@@ -8,6 +9,8 @@ function AllProducts() {
       <BeerComponent />
 
       <TastingboxComponent />
+
+      <GlassesComponent />
     </div>
   );
 }
