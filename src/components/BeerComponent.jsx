@@ -13,7 +13,7 @@ function BeerComponent() {
             className=" content pb-20 sm:pt-10 lg:pt-20 lg:flex lg:flex-row lg:space-x-20 xl:space-x-28 xl:px-52 lg:border-b-2  border-y-grey"
           >
             <div className="img flex justify-center pb-5 lg:w-80 lg:h-80 xl:w-80 xl:h-80">
-              <img src={item.beerImage} alt="" />
+              <img src={item.beerImage} alt="" className="object-fit" />
             </div>
 
             <div className="flex flex-col justify-center lg:w-2/3">

@@ -8,7 +8,7 @@ import "./AboutSectionsStyle.css";
 
 function AboutSections() {
   return (
-    <div className="main text-white sm:pt-36 md:pt-20 lg:pt-20 xl:pt-16">
+    <div className="main text-white sm:pt-20 md:pt-20 lg:pt-20 xl:pt-16">
       <div className="content flex justify-center flex-col items-center">
         <img
           src={HermitSerious}

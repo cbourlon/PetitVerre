@@ -18,9 +18,7 @@ function GlassesComponent() {
         {data.Glasses.map((item, i) => {
           return (
             <div
-              className={`products flex flex-col lg:pt-${
-                i === 1 ? "44" : "12"
-              } justify-center text-center lg:space-y-5`}
+              className={`products flex flex-col lg:pt-12 justify-center text-center lg:space-y-5`}
               key={i}
             >
               <div className="glassImg flex justify-center">

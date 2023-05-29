@@ -4,7 +4,7 @@ import OrderButton from "../OrderButton";
 
 function PrivateTastingSection() {
   return (
-    <div className="main text-white sm:pt-48 md:pt-32 lg:pt-32">
+    <div className="main text-white sm:pt-20 md:pt-32 lg:pt-32">
       <div className="LargeView sm:hidden lg:flex lg:flex-row lg:px-16 ">
         <div className="VenstreContent flex-1 lg:pt-12 ">
           <div className="tekst">
@@ -59,7 +59,7 @@ function PrivateTastingSection() {
           />
         </div>
 
-        <div className="description sm:px-10 text-center font-AvenirMedium sm:pt-10 sm:pb-10 md:pb-16">
+        <div className="description sm:px-10 sm:text-left md:text-center font-AvenirMedium sm:pt-10 sm:pb-10 md:pb-16">
           <p className="sm:text-lg md:text-2xl  ">
             Indulge in an exquisite beer tasting experience that tantalizes your
             taste buds. Savor the rich flavors, distinct aromas, and expertly

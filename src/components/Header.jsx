@@ -17,7 +17,7 @@ function Header() {
   };
 
   return (
-    <header>
+    <header className="sticky top-0 z-50">
       <NavLink to="/" class="flex items-center">
         <img
           src={Logo}

@@ -11,9 +11,9 @@ function HermitDrinkingSection() {
 
   return (
     <div className="container md:py-5 md:pr-20 md:flex-row sm:py-2 text-white flex sm:flex-col sm:justify-center relative">
-      <div className="TekstBoks xl:pl-28 xl:pr-96 lg:pl-12 lg:pr-32 md:pt-10 md:pl-5">
+      <div className="TekstBoks xl:pl-28 xl:pr-96 lg:pl-12 lg:pr-32 md:pt-10 lg:pt-16 md:pl-5">
         <div className="TekstIndhold md:z-10 relative md:border-l-8 ">
-          <h1 className="font-Ermitial xl:text-9xl md:px-3 md:pt-1 md:text-left md:text-7xl sm:text-6xl sm:text-center sm:pt-32">
+          <h1 className="font-Ermitial xl:text-9xl md:px-3 md:pt-1 md:text-left md:text-7xl sm:text-6xl sm:text-center sm:pt-16">
             PETIT VERRE
           </h1>
           <h2 className="font-AvenirMedium xl:text-3xl md:px-3 md:pb-2 md:pr-56 md:pt md:text-left md:text-lg sm:text-center sm:px-10">

@@ -2,6 +2,7 @@ import React from "react";
 import IpaPreview from "./FrontpageMedia/IpaPreview.png";
 import PaleAlePreview from "./FrontpageMedia/PaleAlePreview.png";
 import SourPreview from "./FrontpageMedia/SourPreview.png";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import CTAbutton from "../CTAbutton";
 
 function BeerPreviewSection() {
@@ -20,9 +21,9 @@ function BeerPreviewSection() {
       <div className="Beers font-Ermitial text-white flex xl:space-x-52 lg:flex-row lg:space-y-0 lg:space-x-28 lg:justify-center lg:py-14 sm:flex-col sm:space-y-14 sm:items-center sm:py-10">
         <div className="ipa hover:scale-110 transition-transform duration-200 ease-in">
           <div className="ipaAni">
-            <a href="/beers">
+            <Link to="/products?filter=All">
               <img src={IpaPreview} alt="Ipa Preview" />
-            </a>
+            </Link>
           </div>
           <div className="ipatext sm:text-center sm:text-3xl sm:pt-2">
             <p>IPA</p>
@@ -31,9 +32,9 @@ function BeerPreviewSection() {
 
         <div className="paleale hover:scale-110 transition-transform duration-200 ease-in">
           <div className="palealeAni">
-            <a href="/beers">
+            <Link to="/products?filter=All">
               <img src={PaleAlePreview} alt="Pale Ale Preview" />
-            </a>
+            </Link>
           </div>
           <div className="palealetext sm:text-center sm:text-3xl sm:pt-2">
             <p>PALE ALE</p>
@@ -42,9 +43,9 @@ function BeerPreviewSection() {
 
         <div className="sour hover:scale-110 transition-transform duration-200 ease-in ">
           <div className="sourani">
-            <a href="/beers">
+            <Link to="/products?filter=All">
               <img src={SourPreview} alt="Sour Preview" />
-            </a>
+            </Link>
           </div>
           <div className="sourtext sm:text-center sm:text-3xl sm:pt-2">
             <p>SOUR</p>
@@ -53,7 +54,9 @@ function BeerPreviewSection() {
       </div>
 
       <div className="exploreButton flex justify-center ">
-        <CTAbutton buttonText="EXPLORE" to="/beers" />
+        <Link to="/products?filter=All">
+          <CTAbutton buttonText="EXPLORE" />
+        </Link>
       </div>
     </div>
   );

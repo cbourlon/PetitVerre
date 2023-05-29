@@ -70,13 +70,13 @@ function Formular() {
 
   return (
     <div className="">
-      <div className="content text-white sm:pt-40 md:pt-20">
+      <div className="content text-white sm:pt-20 md:pt-20">
         <div className="top-elements flex flex-col items-center">
           <video
             src={CheersAni}
             muted
             autoPlay
-            className="sm:w-1/2 lg:w-1/3 xl:w-1/3"
+            className="sm:w-1/2 md:w-1/3 xl:w-1/5"
           ></video>
           <h1 className="font-Ermitial sm:text-5xl md:text-7xl lg:text-8xl xl:text-8xl">
             CHEERS WITH US
