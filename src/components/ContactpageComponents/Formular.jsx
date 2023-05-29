@@ -1,33 +1,71 @@
 import React from "react";
 import CheersAni from "./ContactpageMedia/CheersAnimation.mp4";
 import igIcon from "./ContactpageMedia/IgIconWhite.png";
+import checkIcon from "./ContactpageMedia/CheckIcon.png";
 import CTAbutton from "../CTAbutton.jsx";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
+import CloseButton from "../CloseButton";
 
 function Formular() {
   //https://www.emailjs.com/docs/examples/reactjs/
   //EmailJS integration
   const form = useRef();
+  const [name, setName] = useState(""); //Værdien af name
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+  const [isSent, setIsSent] = useState(false); // State til popup visibility
+
+  //Ændrer (onChange) værdien af name til hvad brugeren indtaster
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
+  };
+  const handleNameChange = (event) => {
+    setName(event.target.value);
+  };
+
+  const handleSubjectChange = (event) => {
+    setSubject(event.target.value);
+  };
+  const handleMessageChange = (event) => {
+    setMessage(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    //Vi kalder denne funktion i sendEmail funktionen, da den er kaldt på "onSubmit"
+    event.preventDefault();
+    setName("");
+    setEmail("");
+    setSubject("");
+    setMessage("");
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_m5pxb8k",
+        "template_uwo4pcb",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "3ffDEsGtxDcR32eyg"
       )
       .then(
         (result) => {
           console.log(result.text);
+          setIsSent(true); // Set popup visibility til true
+          handleSubmit(e); // Kalder på handleSubmit for at resette form'ens inputfelter.
         },
         (error) => {
           console.log(error.text);
         }
       );
+  };
+
+  //Sætter visibility til false
+  const closePopup = () => {
+    setIsSent(false);
   };
 
   return (
@@ -43,7 +81,7 @@ function Formular() {
           <h1 className="font-Ermitial sm:text-5xl md:text-7xl lg:text-8xl xl:text-8xl">
             CHEERS WITH US
           </h1>
-          <h2 className="text-center font-AvenirMedium md:text-2xl lg:text-3xl">
+          <h2 className="text-center font-AvenirMedium md:text-2xl ">
             Contact us on{" "}
             <span className="underline">orders@petitverre.dk</span> or fill the
             form below
@@ -64,6 +102,9 @@ function Formular() {
                 className=" bg-bgBlack outline-none border-b-2 border-b-white border-opacity-40 sm:pt-4"
                 type="text"
                 name="user_name"
+                value={name}
+                onChange={handleNameChange}
+                required
               />
             </div>
 
@@ -75,6 +116,9 @@ function Formular() {
                 className=" bg-bgBlack outline-none border-b-2 border-b-white border-opacity-40 sm:pt-4"
                 type="email"
                 name="user_email"
+                value={email}
+                onChange={handleEmailChange}
+                required
               />
             </div>
             <div className="subjectDiv flex flex-col sm:px-10 sm:pt-10">
@@ -84,6 +128,8 @@ function Formular() {
               <input
                 className=" bg-bgBlack outline-none border-b-2 border-b-white border-opacity-40 sm:pt-4"
                 type="subject"
+                value={subject}
+                onChange={handleSubjectChange}
                 name="user_subject"
               />
             </div>
@@ -94,6 +140,9 @@ function Formular() {
               <textarea
                 className=" bg-bgBlack outline-none border-b-2 border-b-white border-opacity-40 sm:pt-14"
                 name="message"
+                value={message}
+                onChange={handleMessageChange}
+                required
               />
             </div>
 
@@ -101,6 +150,33 @@ function Formular() {
               <CTAbutton buttonText="SEND" type="submit" value="Send" />
             </div>
           </form>
+          {/* Popup styling, ChatGPT */}
+          {isSent && (
+            <div className="Popupbesked-container fixed top-0 left-0 w-full h-full flex items-center justify-center z-50 ">
+              <div className="text-bgBlack bg-white rounded-xl p-4 shadow-lg text-center  flex flex-col items-center sm:w-3/4 sm:h-2/4 lg:w-4/6 xl:w-2/4">
+                <div className="checkIcon flex flex-col items-center">
+                  <img
+                    src={checkIcon}
+                    alt="bekraeftelsesikon"
+                    className="sm:w-2/3 sm:mt-[-60px] "
+                  />
+                </div>
+                <div className="tekst sm:pt-16 xl:pt-10">
+                  <h1 className="font-Ermitial sm:text-5xl md:text-6xl xl:text-7xl">
+                    MERCI!
+                  </h1>
+                  <p className=" font-AvenirThin sm:pt-2 md:text-xl lg:text-2xl lg:px-10 xl:pt-5 xl:px-20">
+                    Your message has been sent. We will reply to you again by
+                    email as soon as possible.
+                  </p>
+                </div>
+
+                <div className="closeButton sm:pt-10 md:pt-12 lg:pt-16 xl:pt-20">
+                  <CloseButton buttonText="CLOSE" onClick={closePopup} />
+                </div>
+              </div>
+            </div>
+          )}
         </div>
 
         <div className="soMe flex flex-row sm:justify-center items-center sm:pt-14 sm:pr-5 sm:pb-10 sm:space-x-3 md:pb-10 md:pt20 lg:justify-end lg:pr-14 xl:pr-10">
