@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 function Accordion({ title, content, content2 }) {
+  //Hjælp fra ChatGPT
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggle = () => {

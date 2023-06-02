@@ -5,6 +5,7 @@ import arrowUp from "../media/logo/arrowUpBlack.png";
 function ScrollToTop() {
   const [showButton, setShowButton] = useState(false);
 
+  //Dele af koden af ChatGPT
   const handleScroll = () => {
     if (window.pageYOffset > 300) {
       setShowButton(true);
