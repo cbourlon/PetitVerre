@@ -10,13 +10,10 @@ import ScrollToTop from "../components/ScrollToTop";
 function Productpage() {
   const [selectedCategory, setSelectedCategory] = useState("all");
 
-  //Sætter hvor jeg er "goodies, all beers osv" -> sætter staten. Den sender jeg ned til fitlermenu, så man kan kalde fuktionen derfra.
   const handleCategoryChange = (category) => {
     console.log(category);
     setSelectedCategory(category);
   };
-
-  //Kalder handleCategoryChange via variablen onCategoryChange, ændrer navnet af funktionen til filtermenuen
 
   return (
     <div className="Filtermenu text-white sm:pt-28">
