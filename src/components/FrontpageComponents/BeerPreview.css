@@ -1,0 +1,11 @@
+@media (min-width: 480px) and (max-width: 975px) {
+  .parallax-background {
+    display: none;
+  }
+}
+
+@media (min-width: 976px) and (max-width: 1440px) {
+  .parallax-background {
+    max-height: 90%;
+  }
+}

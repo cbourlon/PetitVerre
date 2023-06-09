@@ -15,7 +15,8 @@ function BeerPreviewSection() {
         blur={0}
         bgImage={PXBG}
         strength={300}
-        className="parallax-section bg-cover"
+        className="parallax-section lg:py-10"
+        bgClassName="parallax-background"
       >
         <div className="Overskrifter text-white text-center sm:pb-5">
           <div className="overskrift font-Ermitial sm:text-3xl md:text-5xl lg:text-6xl xl:text-8xl">
