@@ -69,7 +69,7 @@ function BeerComponent() {
                   <p>Ingredients</p>
                 </div>
                 <div className="ingredientsVaerdi font-AvenirHeavy pt-2 lg:text-xl sm:text-lg md:text-xl">
-                  <p>{item.beerIngredients}</p>
+                  <p>{item.beerIngredientsEN}</p>
                 </div>
               </div>
 
@@ -85,7 +85,7 @@ function BeerComponent() {
                 content2={item.beerVolumeCL}
               />
 
-              <Accordion title="Ingredients" content={item.beerIngredients} />
+              <Accordion title="Ingredients" content={item.beerIngredientsEN} />
               <div className="Orderbutton pt-14">
                 <OrderButton buttonText={"ORDER"} to={"/contact"} />
               </div>
@@ -96,7 +96,7 @@ function BeerComponent() {
 
               <Accordion title="Volume" content={item.beerVolumePercentage} />
 
-              <Accordion title="Ingredients" content={item.beerIngredients} />
+              <Accordion title="Ingredients" content={item.beerIngredientsEN} />
             </div>
           </div>
         );

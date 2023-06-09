@@ -8,7 +8,8 @@
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",
       "beerVolumePercentage": "8,0%",
-      "beerIngredients": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Morello cherries, Hops, Yeast, Sugar",
       "beerPrice": "53 DKK"
     },
 
@@ -20,7 +21,8 @@
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",
       "beerVolumePercentage": "6,4%",
-      "beerIngredients": "Eau, Malt, D'orge, Houblons, The Vert, Jasmin, Levure, Sucre",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Houblons, The Vert, Jasmin, Levure, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Hops, Green Tea, Jasmine, Yeast, Sugar",
       "beerPrice": "37 DKK"
     },
 
@@ -32,7 +34,8 @@
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",
       "beerVolumePercentage": "4,6%",
-      "beerIngredients": "Eau, Malt, D'orge, Houblons, Levure, Sucre",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Houblons, Levure, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Hops, Yeast, Sugar",
       "beerPrice": "35 DKK"
     },
 
@@ -44,7 +47,8 @@
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",
       "beerVolumePercentage": "5,4%",
-      "beerIngredients": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Morello cherries, Hops, Yeast, Sugar",
       "beerPrice": "37 DKK"
     },
 
@@ -56,7 +60,8 @@
       "beerDescription": "It is an aromatic Pale Ale with American hops. It is a light, fresh and dry beer that is suitable for both summer and winter.",
       "beerVolumeCL": "33 cl",
       "beerVolumePercentage": "5,5%",
-      "beerIngredients": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Morello cherries, Hops, Yeast, Sugar",
       "beerPrice": "35 DKK"
     },
 
@@ -68,7 +73,8 @@
       "beerDescription": "Noire du Midi is another of the brewery's lighthouse beers. It has a hoppy porter in it. English style with Columbus and Chinook hops from the USA. It is dry and aromatic with resinous aromas from the roasted malt thatused in brewing.",
       "beerVolumeCL": "33 cl",
       "beerVolumePercentage": "6,9%",
-      "beerIngredients": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Morello cherries, Hops, Yeast, Sugar",
       "beerPrice": "36 DKK"
     },
 
@@ -80,7 +86,8 @@
       "beerDescription": "Californication er en dobbelt IPA fra USA's vestkyst, hvor man traditionelt harhaft adgang til frisk humle fra de omkringliggende humleproducenter. Detresulterer i IPA’s, der er skarpe og har en frisk, bitter smag.",
       "beerVolumeCL": "33 cl",
       "beerVolumePercentage": "8,0%",
-      "beerIngredients": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Morello cherries, Hops, Yeast, Sugar",
       "beerPrice": "42 DKK"
     },
 
@@ -92,7 +99,8 @@
       "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
       "beerVolumeCL": "33 cl",
       "beerVolumePercentage": "5,0%",
-      "beerIngredients": "Eau, Malt, D'orge, Houblons, Levure",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Houblons, Levure",
+      "beerIngredientsEN": "Water, Malt, Barley, Hops, Yeast",
       "beerPrice": "37 DKK"
     },
 
@@ -104,7 +112,8 @@
       "beerDescription": "Every year a new edition of Sour Krump is brewed in honor of the brewery's illustrator, the fourth Hermit and good friend,Julien Kremer 'Krump'. This results in a sour beer based on different citrus fruits, this year Corsican clementines, pomelo andbergamot.",
       "beerVolumeCL": "33 cl",
       "beerVolumePercentage": "4,2%",
-      "beerIngredients": "Eau, Malt, Blé, Clementine, Bergamotte, Pomelo, D'orge, Houblons",
+      "beerIngredientsFR": "Eau, Malt, Blé, Clementine, Bergamotte, Pomelo, D'orge, Houblons",
+      "beerIngredientsEN": "Water, Malt, Wheat, Clementine, Bergamot, Pomelo, Barley, Hops",
       "beerPrice": "40 DKK"
     },
 
@@ -116,7 +125,8 @@
       "beerDescription": "Jurassic er en IPA brygget med en blanding af fire aromatiske humletyper:Citra, Galaxy, Enigma og Idaho7. Duften leder tankerne hen på eksotiskefrugter, mens smagen er domineret af citrusaromaer og afsluttes med enharpiksagtig og forfriskende bitterhed. Den saftige, harpiksholdige og letuklare side minder om East Coast IPA'er.",
       "beerVolumeCL": "33 cl",
       "beerVolumePercentage": "7,5%",
-      "beerIngredients": "Eau, Malt, D'orge, Avoine, Houblons, Levure, Blé, Sucre",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Avoine, Houblons, Levure, Blé, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Oats, Hops, Yeast, Wheat, Sugar",
       "beerPrice": "40 DKK"
     },
 
@@ -127,7 +137,8 @@
       "beerTaste": "INDIA PALE ALE",
       "beerDescription": "Höpzi er brygget i samarbejde med Yakima Chief Hops, en forening af humleproducenter på den amerikanske vestkyst. Her har man benyttetmetoden Frozen Fresh Hops, hvor humlen fryses ned direkte hos producentenog først tøs op, når den ankommer til bryggeriet, som ”frozen”, men ”fresh”.",
       "beerVolumePercentage": "6,0%",
-      "beerIngredients": "Eau, Malt, D'orge, Griottes, Houblons, Levure",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Griottes, Houblons, Levure",
+      "beerIngredientsEN": "Water, Malt, Barley, Morello cherries, Hops, Yeast",
       "beerPrice": "40 DKK"
     }
   ],
