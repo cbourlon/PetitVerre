@@ -33,6 +33,7 @@ function Header() {
               to="/"
               className="nav-link"
               activeClassName="active-link"
+              onClick={showNavbar}
             >
               Home
             </NavLink>
@@ -42,6 +43,7 @@ function Header() {
               to="/products?filter=All"
               className="nav-link"
               activeClassName="active-link"
+              onClick={showNavbar}
             >
               Products
             </NavLink>
@@ -51,6 +53,7 @@ function Header() {
               to="/beertasting"
               className="nav-link"
               activeClassName="active-link"
+              onClick={showNavbar}
             >
               Beer Tasting
             </NavLink>
@@ -60,6 +63,7 @@ function Header() {
               to="/about"
               className="nav-link"
               activeClassName="active-link"
+              onClick={showNavbar}
             >
               {" "}
               About
@@ -70,6 +74,7 @@ function Header() {
               to="/contact"
               className="nav-link"
               activeClassName="active-link"
+              onClick={showNavbar}
             >
               Contact
             </NavLink>

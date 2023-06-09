@@ -5,7 +5,7 @@ import OrderButton from "./OrderButton";
 
 function BeerComponent() {
   return (
-    <div className="flex flex-col px-10 ">
+    <div className="flex flex-col px-10">
       {data.Beers.map((item, i) => {
         return (
           <div
@@ -30,10 +30,13 @@ function BeerComponent() {
               </h2>
 
               <div
-                className="beerDescriptions font-AvenirMedium hidden lg:block xl:text-xl xl:pt-3"
+                className="beerDescriptions font-AvenirMedium hidden lg:block xl:text-xl xl:pt-3 lg:first-letter:text-4xl xl:first-letter:text-6xl "
                 style={{ maxWidth: "80%" }}
               >
-                {item.beerDescription}
+                <span className={`${item.beerColor}`}>
+                  {item.beerDescription.substring(0, 1)}
+                </span>
+                {item.beerDescription.substring(1)}
               </div>
 
               <div className="priceText lg:text-left lg:pt-5 sm:text-center sm:pt-6">
