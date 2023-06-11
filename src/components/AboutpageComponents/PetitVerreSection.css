@@ -1,0 +1,4 @@
+.shadow-bottom {
+  box-shadow: 0 4px 6px -1px rgba(21, 13, 13, 0.1),
+    10px 10px 40px 20px rgba(0, 0, 0, 0.368);
+}
