@@ -2,18 +2,19 @@ import React from "react";
 import CTAbutton from "../CTAbutton";
 import TheHat from "./FrontpageMedia/TheHat.png";
 
-function ContactSection() {
+function ContactSection({ data }) {
+  if (!data || data.length < 2) {
+    return null;
+  }
+
   return (
     <div className="main text-white">
       <div className="Overskrifter sm:text-center">
         <div className="overskrift font-Ermitial sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
-          <h1>LET’S GET IN TOUCH</h1>
+          <h1>{data[3].fourthSectionOverskrift}</h1>
         </div>
         <div className="underoverskrift font-AvenirMedium sm:text-md md:text-lg lg:text-2xl">
-          <h2 className="sm:px-16">
-            Ready to embark on a beer-filled adventure? We'd love to hear from
-            you!
-          </h2>
+          <h2 className="sm:px-16">{data[3].fourthSectionUnderoverksrift}</h2>
         </div>
       </div>
       <div className="CTAcontact flex lg:pt-20 md:pt-14 sm:pt-10 sm:justify-center items-center">

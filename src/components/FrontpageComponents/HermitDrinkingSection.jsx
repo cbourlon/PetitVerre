@@ -18,10 +18,7 @@ function HermitDrinkingSection({ data }) {
             {data[0].firstSectionOverskrift}
           </h1>
           <h2 className="font-AvenirMedium xl:text-3xl md:px-3 md:pb-2 md:pr-56 md:pt md:text-left md:text-lg sm:text-center sm:px-10">
-            Discover the stories behind the labels as we uncover the story of
-            Hermit. Our beer showcase website is a gateway to a cornucopia of
-            flavors, featuring rare brews, limited editions, and unique
-            collaborations.
+            {data[0].firstSectionUnderoverskrift}
           </h2>
         </div>
       </div>

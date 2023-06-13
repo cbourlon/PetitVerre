@@ -41,9 +41,6 @@ function Frontpage() {
   //Arrayet[hvilket objekt i arrayet].specifikkefeltiarrayet
   return (
     <main className="container" style={{ margin: "0 auto" }}>
-      <h1 className="text-white">DATATEST:</h1>
-      <h1 className="text-white">{frontpageData[1].secondSectionFirstBeer}</h1>
-
       <div className="HermitDrinkingSection md:pb-44">
         <HermitDrinkingSection data={frontpageData} />
       </div>

@@ -8,7 +8,15 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import CTAbutton from "../CTAbutton";
 import "./BeerPreview.css";
 
-function BeerPreviewSection() {
+function BeerPreviewSection({ data }) {
+  //!data, er den falsy? null/undefined - OR - Er dataen en array og om den har færre end 2 felter
+  //Hvis nogen er dem er true, så returnerer jeg "null" for at hverken at render noget som helst eller en loading state. Det er for at håndtere at komponenten er afhængig af dataen og skal vente før den render resten af indholdet
+  if (!data || data.length < 2) {
+    // Data er ikke ledig endnu, returner null eller loading state
+    return null;
+    //evt en loadingspinner?
+  }
+
   return (
     <div className="main  sm:pt-28 sm:pb-20 md:pt-48 lg:pt-40">
       <Parallax
@@ -20,11 +28,11 @@ function BeerPreviewSection() {
       >
         <div className="Overskrifter text-white text-center sm:pb-5">
           <div className="overskrift font-Ermitial sm:text-3xl md:text-5xl lg:text-6xl xl:text-8xl">
-            <h1>VINOUS, POWERFUL, MAGICAL</h1>
+            <h1>{data[1].secondSectionOverskrift}</h1>
           </div>
 
           <div className="underoverskrift font-AvenirMedium sm:text-md md:text-lg lg:text-xl xl:text-3xl xl:pt-2">
-            <h2>Explore our selection of beers, services and products</h2>
+            <h2>{data[1].secondSectionUnderoverskrift}</h2>
           </div>
         </div>
 
@@ -36,7 +44,7 @@ function BeerPreviewSection() {
               </Link>
             </div>
             <div className="ipatext sm:text-center sm:text-3xl sm:pt-2">
-              <p>IPA</p>
+              <p>{data[1].secondSectionFirstBeer}</p>
             </div>
           </div>
 
@@ -51,7 +59,7 @@ function BeerPreviewSection() {
               </Link>
             </div>
             <div className="palealetext sm:text-center sm:text-3xl sm:pt-2">
-              <p>PALE ALE</p>
+              <p>{data[1].secondSectionSecondBeer}</p>
             </div>
           </div>
 
@@ -62,7 +70,7 @@ function BeerPreviewSection() {
               </Link>
             </div>
             <div className="sourtext sm:text-center sm:text-3xl sm:pt-2">
-              <p>SOUR</p>
+              <p>{data[1].secondSectionThirdBeer}</p>
             </div>
           </div>
         </div>
