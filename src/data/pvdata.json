@@ -190,5 +190,80 @@
       "extraDeal": "1 glass of your choice",
       "extraDealPrice": "+20 DKK"
     }
+  ],
+
+  "Frontpage": [
+    {
+      "firstSectionOverskrift": "PETIT VERRE",
+      "firstSectionUnderoverskrift": "Discover the stories behind the labels as we uncover the story of Hermit. Our beer showcase website is a gateway to a cornucopia of flavors, featuring rare brews, limited editions, and unique collaborations."
+    },
+
+    {
+      "secondSectionOverskrift": "VINOUS, POWERFUL, MAGICAL",
+      "secondSectionUnderoverskrift": "Explore our selection of beers, services and products",
+      "secondSectionFirstBeer": "IPA",
+      "secondSectionSecondBeer": "PALE ALE",
+      "secondSectionThirdBeer": "SOUR"
+    },
+
+    {
+      "thirdSectionOverskrift": "ENTER THE WORLD OF L’ERMITAGE",
+      "thirdSectionTekst": "At Petit Verre, we believe that beer is more than just a beverage – it's a cultural symbol, a catalyst for connection, and a testament to human creativity. Get to know us!"
+    },
+
+    {
+      "fourthSectionOverskrift": "LET’S GET IN TOUCH",
+      "fourthSectionUnderoverksrift": "Ready to embark on a beer-filled adventure? We'd love to hear from you!"
+    }
+  ],
+
+  "Privatetasting": [
+    {
+      "Overskrift": "PRIVATE TASTING",
+      "Tekst": "Indulge in an exquisite beer tasting experience that tantalizes your taste buds. Savor the rich flavors, distinct aromas, and expertly crafted brews. Discover a world mystery, smooth ales, and adventure. Unleash your inner beer connoisseur and embark on a sensory journey like no other.",
+      "Pris": "195DKK/person",
+      "Requirement": "Minimum 6 people"
+    }
+  ],
+
+  "Aboutpage": [
+    {
+      "TopOverskrift": "MORE ABOUT US",
+      "TopUnderoverskrift": "Unveiling the story behind our journey of excellence."
+    },
+
+    {
+      "PetitVerreOverskrift": "PETIT VERRE",
+      "PetitVerreTekst": "Lorem ipsum dolor sit amet consectetur. Tellus etiam praesent magna duis. Maecenas diam egestas dolor cursus id. Turpis pulvinar lacus tincidunt in. Enim tristique lorem egestas accumsan diam vulputate hendrerit egestas risus. Lorem ipsum dolor sit amet consectetur. Tellus etiam praesent magna duis. Lorem ipsum dolor sit amet consectetur. Tellus etiam praesent magna duis."
+    },
+
+    {
+      "TheHermitOverskrift": "THE HERMIT",
+      "TheHermitUnderoverskrift": "The brewery's visual expression is largely focused around the Hermit, or Hermit, who, according to the Marseillan tarot cards, symbolizes a journey towards knowledge, enlightenment and reflection. The visual universe is created by the fourth Hermit and freelance illustrator Julien (KRUMP)."
+    },
+
+    {
+      "LermitageOverskrift": "L'ERMITAGE",
+      "LermitageUnderoverskrift": "Ermitage Brewery. Born from a kitchen experiment, three friends from Brussels created a diverse range of balanced and aromatic beers. From collaborations to herb-infused brews, their creations capture the essence of craftsmanship. Discover Ermitage beers in Brussels' independent bars, restaurants, and specialty shops. Experience their unique vision at L'Ermitage Saint-Gilles bar and Les Caves de L'Ermitage wine shop. Cheers to a journey of flavor and friendship!"
+    },
+
+    {
+      "CreditOverskrift": "ILLUSTRATIONS",
+      "CreditIG": "krump.krump.krump",
+      "CreditLink": "krumpkrumpkrump.com"
+    },
+
+    {
+      "ContactOverskrift": "WANNA KNOW MORE?",
+      "ContactUnderoverskrift": "Cheers! Let's discuss craft beer"
+    }
+  ],
+
+  "Contactpage": [
+    {
+      "Overskrift": "CHEERS WITH US",
+      "Underoverskrift": "Contact us on orders@petitverre.dk or fill the form below",
+      "IG": "@petitverredk"
+    }
   ]
 }

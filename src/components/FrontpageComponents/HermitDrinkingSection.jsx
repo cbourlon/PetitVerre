@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import { useRef } from "react";
 import AniDrinkingHermit from "./FrontpageMedia/DrinkingHermit.mp4";
-function HermitDrinkingSection() {
+
+function HermitDrinkingSection({ data }) {
   const videoRef = useRef(null);
 
   useEffect(() => {
@@ -14,7 +15,7 @@ function HermitDrinkingSection() {
       <div className="TekstBoks xl:pl-28 xl:pr-96 lg:pl-12 lg:pr-32 md:pt-10 lg:pt-16 md:pl-5">
         <div className="TekstIndhold md:z-10 relative md:border-l-8 ">
           <h1 className="font-Ermitial xl:text-9xl md:px-3 md:pt-1 md:text-left md:text-7xl sm:text-6xl sm:text-center sm:pt-16">
-            PETIT VERRE
+            {data[0].firstSectionOverskrift}
           </h1>
           <h2 className="font-AvenirMedium xl:text-3xl md:px-3 md:pb-2 md:pr-56 md:pt md:text-left md:text-lg sm:text-center sm:px-10">
             Discover the stories behind the labels as we uncover the story of

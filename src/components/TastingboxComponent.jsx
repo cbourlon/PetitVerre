@@ -1,5 +1,5 @@
 import React from "react";
-import data from "./ProductpageComponents/products.json";
+import data from "../data/pvdata.json";
 import OrderButton from "./OrderButton";
 
 function TastingboxComponent() {

@@ -1,4 +1,4 @@
-import data from "./ProductpageComponents/products.json";
+import data from "../data/pvdata.json";
 import React from "react";
 import Accordion from "./Accordion";
 import OrderButton from "./OrderButton";
