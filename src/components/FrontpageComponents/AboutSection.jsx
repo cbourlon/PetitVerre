@@ -24,7 +24,7 @@ function AboutSection({ data }) {
 
   return (
     <div className="main  lg:flex lg:flex-row-reverse text-white sm:pt-10 md:pt-0">
-      <div className="Hoejre lg:flex-1 lg:mt-16">
+      <div className="Hoejre lg:flex-1 lg:mt-16 xl:pl-20">
         <div className="tekst sm:text-center sm:px-5 md:px-0 lg:pl-3 lg:py-2 lg:text-left lg:border-l-4 xl:pl-5 ">
           <div className="overskrift font-Ermitial  sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
             <h1 className="lg:pr-10 xl:pr-28">
@@ -39,7 +39,7 @@ function AboutSection({ data }) {
           </div>
         </div>
         <div className="CTAbutton flex sm:justify-center sm:py-10 lg:justify-start lg:pl-3 lg:py-3 xl:pl-4 xl:pt-">
-          <CTAbutton buttonText={"ABOUT US"} to={"/about"} />
+          <CTAbutton buttonText={"MORE"} to={"/beertasting"} />
         </div>
       </div>
 
