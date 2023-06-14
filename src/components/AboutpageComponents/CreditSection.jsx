@@ -2,7 +2,7 @@ import React from "react";
 import JulienPhoto from "./AboutpageMedia/JulienCreditImg.png";
 import igIcon from "./AboutpageMedia/igIcon.png";
 
-function CreditSection() {
+function CreditSection({ data }) {
   return (
     <div className="main text-black sm:pt-28 md:pt-32 lg:pt-36 xl:40 ">
       <div className="content bg-white">
@@ -10,7 +10,7 @@ function CreditSection() {
           <div className="VenstreContent flex flex-col items-center">
             <div className="overskrift lg:pb-10 lg:pt-20">
               <h1 className="font-Ermitial lg:text-5xl xl:text-7xl">
-                ILLUSTRATIONS
+                {data[4]?.CreditOverskrift}
               </h1>
             </div>
 
@@ -27,7 +27,9 @@ function CreditSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <p className="lg:text-lg xl:text-2xl">krump.krump.krump</p>
+                    <p className="lg:text-lg xl:text-2xl">
+                      {data[4]?.CreditIG}
+                    </p>
                   </a>
                 </div>
               </div>
@@ -38,7 +40,7 @@ function CreditSection() {
                   rel="noreferrer"
                 >
                   <p className="lg:pt-10 lg:text-lg xl:text-2xl underline">
-                    krumpkrumpkrump.com
+                    {data[4]?.CreditLink}
                   </p>
                 </a>
               </div>

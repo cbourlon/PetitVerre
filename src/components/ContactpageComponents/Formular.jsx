@@ -7,7 +7,7 @@ import { useRef, useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 import CloseButton from "../CloseButton";
 
-function Formular() {
+function Formular({ data }) {
   //https://www.emailjs.com/docs/examples/reactjs/
   //EmailJS integration
   const form = useRef();
@@ -79,7 +79,7 @@ function Formular() {
             className="sm:w-1/2 md:w-1/3 xl:w-1/5"
           ></video>
           <h1 className="font-Ermitial sm:text-5xl md:text-7xl lg:text-8xl xl:text-8xl">
-            CHEERS WITH US
+            {data[0]?.Overskrift}
           </h1>
           <h2 className="text-center font-AvenirMedium md:text-2xl ">
             Contact us on{" "}
@@ -189,7 +189,7 @@ function Formular() {
               target="_blank"
               rel="noreferrer"
             >
-              <p className="sm:text-xl underline">@petitverredk</p>
+              <p className="sm:text-xl underline">{data[0]?.IG}</p>
             </a>
           </div>
         </div>

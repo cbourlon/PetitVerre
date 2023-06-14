@@ -8,6 +8,8 @@ import React, { useEffect, useRef, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import "../style/Aboutpage.css";
 import HermitSerious from "../components/AboutpageComponents/AboutpageMedia/HermitExtraImg.png";
+import StartFirebase from "../firebase-config";
+import { ref, onValue, off } from "firebase/database";
 
 function Aboutpage() {
   const [isPetitVerreSectionVisible, setisPetitVerreSectionVisible] =
@@ -17,6 +19,7 @@ function Aboutpage() {
     useState(false);
   const [isCreditSectionVisible, setisCreditSectionVisible] = useState(false);
   const [isAboutContactVisible, setisAboutContactVisible] = useState(false);
+  const [aboutpageData, setAboutpageData] = useState([""]);
 
   const [petitverreSectionRef, petitverreSectionInView] = useInView({
     triggerOnce: true,
@@ -74,6 +77,25 @@ function Aboutpage() {
     aboutContactSectionInView,
   ]);
 
+  useEffect(() => {
+    const database = StartFirebase();
+    const aboutpageRef = ref(database, "Aboutpage");
+
+    const fetchData = (snapshot) => {
+      if (snapshot.exists()) {
+        const data = snapshot.val();
+        setAboutpageData(data);
+        console.log(data);
+      }
+    };
+
+    onValue(aboutpageRef, fetchData);
+
+    return () => {
+      off(aboutpageRef, fetchData);
+    };
+  }, []);
+
   return (
     <div className="main sm:pt-12 md:pt-14 lg:pt-20 xl:pt-16 ">
       <div className="Topcontent content flex justify-center flex-col items-center">
@@ -98,34 +120,34 @@ function Aboutpage() {
         ref={petitverreSectionRef}
         className={`fade-in ${petitverreSectionInView ? "visible" : ""}`}
       >
-        <PetitVerreSection />
+        <PetitVerreSection data={aboutpageData} />
       </div>
 
       <div
         ref={hermitSectionRef}
         className={`fade-in ${hermitSectionInView ? "visible" : ""}`}
       >
-        <HermitSection />
+        <HermitSection data={aboutpageData} />
       </div>
 
       <div
         ref={lermitageSectionRef}
         className={`fade-in ${lermitageSectionInView ? "visible" : ""}`}
       >
-        <LermitageSection />
+        <LermitageSection data={aboutpageData} />
       </div>
 
       <div
         ref={creditSectionRef}
         className={`fade-in ${creditSectionInView ? "visible" : ""}`}
       >
-        <CreditSection />
+        <CreditSection data={aboutpageData} />
       </div>
       <div
         ref={aboutContactSectionRef}
         className={`fade-in ${aboutContactSectionInView ? "visible" : ""}`}
       >
-        <AboutContactSection />
+        <AboutContactSection data={aboutpageData} />
       </div>
     </div>
   );
