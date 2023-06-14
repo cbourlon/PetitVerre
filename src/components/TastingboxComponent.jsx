@@ -2,10 +2,10 @@ import React from "react";
 import data from "../data/pvdata.json";
 import OrderButton from "./OrderButton";
 
-function TastingboxComponent() {
+function TastingboxComponent({ tastingbox }) {
   return (
     <div className="main flex flex-col  px-10">
-      {data.Tastingbox.map((item, i) => {
+      {tastingbox.map((item, i) => {
         return (
           <div className="content pb-20 sm:pt-10  sm:border-b-2  border-y-grey md:pb-30">
             <div className="overskrift text-center font-Ermitial sm:text-5xl md:text-6xl md:pt-5 lg:pt-5 lg:text-7xl xl:text-8xl">

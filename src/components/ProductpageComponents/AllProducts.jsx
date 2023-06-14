@@ -3,14 +3,14 @@ import BeerComponent from "../BeerComponent";
 import TastingboxComponent from "../TastingboxComponent";
 import GlassesComponent from "../GlassesComponent";
 
-function AllProducts() {
+function AllProducts({ beers, goodies, tastingbox }) {
   return (
     <div className="">
-      <BeerComponent />
+      <BeerComponent beers={beers} />
 
-      <TastingboxComponent />
+      <TastingboxComponent tastingbox={tastingbox} />
 
-      <GlassesComponent />
+      <GlassesComponent goodies={goodies} />
     </div>
   );
 }
