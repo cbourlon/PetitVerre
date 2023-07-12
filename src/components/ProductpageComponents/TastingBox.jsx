@@ -1,10 +1,10 @@
 import React from "react";
 import TastingboxComponent from "../TastingboxComponent";
 
-function TastingBox() {
+function TastingBox({ tastingbox }) {
   return (
     <div>
-      <TastingboxComponent />
+      <TastingboxComponent tastingbox={tastingbox} />
     </div>
   );
 }

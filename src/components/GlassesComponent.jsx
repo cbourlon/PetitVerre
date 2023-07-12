@@ -1,8 +1,8 @@
 import React from "react";
-import data from "./ProductpageComponents/products.json";
+import data from "../data/pvdata.json";
 import OrderButton from "./OrderButton";
 
-function GlassesComponent() {
+function GlassesComponent({ goodies }) {
   return (
     <div className="main px-10 ">
       <div className="Overskrifter text-center">
@@ -15,7 +15,7 @@ function GlassesComponent() {
       </div>
 
       <div className="contentLargeView sm:hidden lg:flex lg:flex-row justify-center lg:space-x-28 xl:space-x-44 pb-20 pt-10">
-        {data.Glasses.map((item, i) => {
+        {goodies.map((item, i) => {
           return (
             <div
               className={`products flex flex-col lg:pt-12 justify-center text-center lg:space-y-5`}

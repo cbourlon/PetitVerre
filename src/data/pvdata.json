@@ -1,0 +1,269 @@
+{
+  "Beers": [
+    {
+      "name": "NIGREDO",
+      "beerImage": "ProductpageMedia/Nigredo.png",
+      "beerColor": "text-nigredo",
+      "beerTaste": "TART CHERRY DOUBLE DARK SOUR",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "8,0%",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Morello cherries, Hops, Yeast, Sugar",
+      "beerPrice": "53 DKK"
+    },
+
+    {
+      "name": "THEOREME DE L'EMPEREUR",
+      "beerImage": "ProductpageMedia/Theoreme.png",
+      "beerColor": "text-theoremeColor",
+      "beerTaste": "JASMINE TEA PALE ALE",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "6,4%",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Houblons, The Vert, Jasmin, Levure, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Hops, Green Tea, Jasmine, Yeast, Sugar",
+      "beerPrice": "37 DKK"
+    },
+
+    {
+      "name": "BLACK HOPE",
+      "beerImage": "ProductpageMedia/BlackHope.png",
+      "beerColor": "text-blackhopeColor",
+      "beerTaste": "SESSION BLACK IPA",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "4,6%",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Houblons, Levure, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Hops, Yeast, Sugar",
+      "beerPrice": "35 DKK"
+    },
+
+    {
+      "name": "THE SOUR BEFORE CHRISTMAS",
+      "beerImage": "./ProductpageMedia/Christmas.png",
+      "beerColor": "text-christmasColor",
+      "beerTaste": "CHRISTMAS SOUR",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "5,4%",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Morello cherries, Hops, Yeast, Sugar",
+      "beerPrice": "37 DKK"
+    },
+
+    {
+      "name": "LANTERNE",
+      "beerImage": "./ProductpageMedia/Lanterne.png",
+      "beerColor": "text-lanterneColor",
+      "beerTaste": "PALE ALE",
+      "beerDescription": "It is an aromatic Pale Ale with American hops. It is a light, fresh and dry beer that is suitable for both summer and winter.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "5,5%",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Morello cherries, Hops, Yeast, Sugar",
+      "beerPrice": "35 DKK"
+    },
+
+    {
+      "name": "NOIRE DU MIDI",
+      "beerImage": "./ProductpageMedia/Noire.png",
+      "beerColor": "text-noireColor",
+      "beerTaste": "HOPPY PORTER",
+      "beerDescription": "Noire du Midi is another of the brewery's lighthouse beers. It has a hoppy porter in it. English style with Columbus and Chinook hops from the USA. It is dry and aromatic with resinous aromas from the roasted malt thatused in brewing.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "6,9%",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Morello cherries, Hops, Yeast, Sugar",
+      "beerPrice": "36 DKK"
+    },
+
+    {
+      "name": "CALIFORNICATION",
+      "beerImage": "./ProductpageMedia/Californication.png",
+      "beerColor": "text-californicationColor",
+      "beerTaste": "WEST COAST DOUBLE IPA",
+      "beerDescription": "Californication er en dobbelt IPA fra USA's vestkyst, hvor man traditionelt harhaft adgang til frisk humle fra de omkringliggende humleproducenter. Detresulterer i IPA’s, der er skarpe og har en frisk, bitter smag.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "8,0%",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Griottes, Houblons, Levure, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Morello cherries, Hops, Yeast, Sugar",
+      "beerPrice": "42 DKK"
+    },
+
+    {
+      "name": "BRUXELLES MA BELLE",
+      "beerImage": "./ProductpageMedia/Bruxelles.png",
+      "beerColor": "text-bruxellesColor",
+      "beerTaste": "PALE ALE",
+      "beerDescription": "Lorem ipsum dolor sit amet consectetur. Faucibus cursus senectus lacus mollis auctor ipsum convallis morbi. Sollicitudin consectetur eget urna ut est consectetur eu.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "5,0%",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Houblons, Levure",
+      "beerIngredientsEN": "Water, Malt, Barley, Hops, Yeast",
+      "beerPrice": "37 DKK"
+    },
+
+    {
+      "name": "SOUR KRUMP",
+      "beerImage": "./ProductpageMedia/SourKrump.png",
+      "beerColor": "text-sourkrumpColor",
+      "beerTaste": "CITRUS SOUR",
+      "beerDescription": "Every year a new edition of Sour Krump is brewed in honor of the brewery's illustrator, the fourth Hermit and good friend,Julien Kremer 'Krump'. This results in a sour beer based on different citrus fruits, this year Corsican clementines, pomelo andbergamot.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "4,2%",
+      "beerIngredientsFR": "Eau, Malt, Blé, Clementine, Bergamotte, Pomelo, D'orge, Houblons",
+      "beerIngredientsEN": "Water, Malt, Wheat, Clementine, Bergamot, Pomelo, Barley, Hops",
+      "beerPrice": "40 DKK"
+    },
+
+    {
+      "name": "JURASSIC",
+      "beerImage": "./ProductpageMedia/Jurassic.png",
+      "beerColor": "text-jurassicColor",
+      "beerTaste": "INDIA PALE ALE",
+      "beerDescription": "Jurassic er en IPA brygget med en blanding af fire aromatiske humletyper:Citra, Galaxy, Enigma og Idaho7. Duften leder tankerne hen på eksotiskefrugter, mens smagen er domineret af citrusaromaer og afsluttes med enharpiksagtig og forfriskende bitterhed. Den saftige, harpiksholdige og letuklare side minder om East Coast IPA'er.",
+      "beerVolumeCL": "33 cl",
+      "beerVolumePercentage": "7,5%",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Avoine, Houblons, Levure, Blé, Sucre",
+      "beerIngredientsEN": "Water, Malt, Barley, Oats, Hops, Yeast, Wheat, Sugar",
+      "beerPrice": "40 DKK"
+    },
+
+    {
+      "name": "HÖPZI",
+      "beerImage": "./ProductpageMedia/Hopzi.png",
+      "beerColor": "text-hopziColor",
+      "beerTaste": "INDIA PALE ALE",
+      "beerDescription": "Höpzi er brygget i samarbejde med Yakima Chief Hops, en forening af humleproducenter på den amerikanske vestkyst. Her har man benyttetmetoden Frozen Fresh Hops, hvor humlen fryses ned direkte hos producentenog først tøs op, når den ankommer til bryggeriet, som ”frozen”, men ”fresh”.",
+      "beerVolumePercentage": "6,0%",
+      "beerIngredientsFR": "Eau, Malt, D'orge, Griottes, Houblons, Levure",
+      "beerIngredientsEN": "Water, Malt, Barley, Morello cherries, Hops, Yeast",
+      "beerPrice": "40 DKK"
+    }
+  ],
+
+  "Glasses": [
+    {
+      "glassType": "SMALL GLASS",
+      "GlassText": "Small Glass",
+      "GlassVolume": "12,5cl",
+      "GlassPrice": "30 DKK",
+      "GlassImg": "./ProductpageMedia/smallGlass.png"
+    },
+
+    {
+      "glassType": "MEDIUM GLASS",
+      "GlassText": "Medium Glass",
+      "GlassVolume": "25cl",
+      "GlassPrice": "40 DKK",
+      "GlassImg": "./ProductpageMedia/mediumGlass.png"
+    },
+
+    {
+      "glassType": "LARGE GLASS",
+      "GlassVolume": "33cl",
+      "GlassPrice": "50 DKK",
+      "GlassImg": "./ProductpageMedia/largeGlass.png"
+    }
+  ],
+
+  "Tastingbox": [
+    {
+      "variant": "TASTINGBOX I",
+      "tastingboxImage": "./ProductpageMedia/Tastingbox.png",
+      "beerAmount": "6 BEERS",
+      "beerTypes": "Bruxelles Ma Belle, Lanterne, Theoreme de l'Emepereur, Californicaation, The Sour Before Christmas, Nigredo",
+      "price": "229 DKK",
+      "extraDeal": "1 glass of your choice",
+      "extraDealPrice": "+25 DKK"
+    },
+
+    {
+      "variant": "TASTINGBOX II",
+      "tastingboxImage": "./ProductpageMedia/Tastingbox.png",
+      "beerAmount": "24 BEERS",
+      "beerTypes": "2 of each beer in the list",
+      "priceBeforeDiscount": "912 DKK",
+      "discountPercentage": "-15%",
+      "price": "775 DKK",
+      "extraDeal": "1 glass of your choice",
+      "extraDealPrice": "+20 DKK"
+    }
+  ],
+
+  "Frontpage": [
+    {
+      "firstSectionOverskrift": "PETIT VERRE",
+      "firstSectionUnderoverskrift": "Discover the stories behind the labels as we uncover the story of Hermit. Our beer showcase website is a gateway to a cornucopia of flavors, featuring rare brews, limited editions, and unique collaborations."
+    },
+
+    {
+      "secondSectionOverskrift": "VINOUS, POWERFUL, MAGICAL",
+      "secondSectionUnderoverskrift": "Explore our selection of beers, services and products",
+      "secondSectionFirstBeer": "IPA",
+      "secondSectionSecondBeer": "PALE ALE",
+      "secondSectionThirdBeer": "SOUR"
+    },
+
+    {
+      "thirdSectionOverskrift": "ENTER THE WORLD OF L’ERMITAGE",
+      "thirdSectionTekst": "At Petit Verre, we believe that beer is more than just a beverage – it's a cultural symbol, a catalyst for connection, and a testament to human creativity. Get to know us!"
+    },
+
+    {
+      "fourthSectionOverskrift": "LET’S GET IN TOUCH",
+      "fourthSectionUnderoverksrift": "Ready to embark on a beer-filled adventure? We'd love to hear from you!"
+    }
+  ],
+
+  "Privatetasting": [
+    {
+      "Overskrift": "PRIVATE TASTING",
+      "Tekst": "Indulge in an exquisite beer tasting experience that tantalizes your taste buds. Savor the rich flavors, distinct aromas, and expertly crafted brews. Discover a world mystery, smooth ales, and adventure. Unleash your inner beer connoisseur and embark on a sensory journey like no other.",
+      "Pris": "195DKK/person",
+      "Requirement": "Minimum 6 people"
+    }
+  ],
+
+  "Aboutpage": [
+    {
+      "TopOverskrift": "MORE ABOUT US",
+      "TopUnderoverskrift": "Unveiling the story behind our journey of excellence."
+    },
+
+    {
+      "PetitVerreOverskrift": "PETIT VERRE",
+      "PetitVerreTekst": "Lorem ipsum dolor sit amet consectetur. Tellus etiam praesent magna duis. Maecenas diam egestas dolor cursus id. Turpis pulvinar lacus tincidunt in. Enim tristique lorem egestas accumsan diam vulputate hendrerit egestas risus. Lorem ipsum dolor sit amet consectetur. Tellus etiam praesent magna duis. Lorem ipsum dolor sit amet consectetur. Tellus etiam praesent magna duis."
+    },
+
+    {
+      "TheHermitOverskrift": "THE HERMIT",
+      "TheHermitUnderoverskrift": "The brewery's visual expression is largely focused around the Hermit, or Hermit, who, according to the Marseillan tarot cards, symbolizes a journey towards knowledge, enlightenment and reflection. The visual universe is created by the fourth Hermit and freelance illustrator Julien (KRUMP)."
+    },
+
+    {
+      "LermitageOverskrift": "L'ERMITAGE",
+      "LermitageUnderoverskrift": "Ermitage Brewery. Born from a kitchen experiment, three friends from Brussels created a diverse range of balanced and aromatic beers. From collaborations to herb-infused brews, their creations capture the essence of craftsmanship. Discover Ermitage beers in Brussels' independent bars, restaurants, and specialty shops. Experience their unique vision at L'Ermitage Saint-Gilles bar and Les Caves de L'Ermitage wine shop. Cheers to a journey of flavor and friendship!"
+    },
+
+    {
+      "CreditOverskrift": "ILLUSTRATIONS",
+      "CreditIG": "krump.krump.krump",
+      "CreditLink": "krumpkrumpkrump.com"
+    },
+
+    {
+      "ContactOverskrift": "WANNA KNOW MORE?",
+      "ContactUnderoverskrift": "Cheers! Let's discuss craft beer"
+    }
+  ],
+
+  "Contactpage": [
+    {
+      "Overskrift": "CHEERS WITH US",
+      "Underoverskrift": "Contact us on orders@petitverre.dk or fill the form below",
+      "IG": "@petitverredk"
+    }
+  ]
+}

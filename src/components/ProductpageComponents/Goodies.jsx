@@ -1,10 +1,10 @@
 import React from "react";
 import GlassesComponent from "../GlassesComponent";
 
-function Goodies() {
+function Goodies({ goodies }) {
   return (
     <div className="">
-      <GlassesComponent />
+      <GlassesComponent goodies={goodies} />
     </div>
   );
 }

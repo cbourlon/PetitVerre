@@ -1,12 +1,14 @@
-import data from "./ProductpageComponents/products.json";
+import data from "../data/pvdata.json";
 import React from "react";
 import Accordion from "./Accordion";
 import OrderButton from "./OrderButton";
 
-function BeerComponent() {
+function BeerComponent({ beers }) {
+  console.log(beers);
+
   return (
-    <div className="flex flex-col px-10 ">
-      {data.Beers.map((item, i) => {
+    <div className="flex flex-col px-10">
+      {beers.map((item, i) => {
         return (
           <div
             key={i}
@@ -30,10 +32,18 @@ function BeerComponent() {
               </h2>
 
               <div
-                className="beerDescriptions font-AvenirMedium hidden lg:block xl:text-xl xl:pt-3"
+                className="beerDescriptions font-AvenirMedium hidden lg:block xl:text-xl xl:pt-3 lg:first-letter:text-4xl xl:first-letter:text-6xl "
                 style={{ maxWidth: "80%" }}
               >
-                {item.beerDescription}
+                {/* Conditional rendering tjekker og sikrer at beerdescription propertien er defineret før den bruger substringmetoden. (delay i at få fat på dataen, dataen starter med at være et tomt array)   */}
+                {item.beerDescription && (
+                  <>
+                    <span className={`${item.beerColor}`}>
+                      {item.beerDescription.substring(0, 1)}
+                    </span>
+                    {item.beerDescription.substring(1)}
+                  </>
+                )}
               </div>
 
               <div className="priceText lg:text-left lg:pt-5 sm:text-center sm:pt-6">
@@ -66,7 +76,7 @@ function BeerComponent() {
                   <p>Ingredients</p>
                 </div>
                 <div className="ingredientsVaerdi font-AvenirHeavy pt-2 lg:text-xl sm:text-lg md:text-xl">
-                  <p>{item.beerIngredients}</p>
+                  <p>{item.beerIngredientsEN}</p>
                 </div>
               </div>
 
@@ -82,7 +92,7 @@ function BeerComponent() {
                 content2={item.beerVolumeCL}
               />
 
-              <Accordion title="Ingredients" content={item.beerIngredients} />
+              <Accordion title="Ingredients" content={item.beerIngredientsEN} />
               <div className="Orderbutton pt-14">
                 <OrderButton buttonText={"ORDER"} to={"/contact"} />
               </div>
@@ -93,7 +103,7 @@ function BeerComponent() {
 
               <Accordion title="Volume" content={item.beerVolumePercentage} />
 
-              <Accordion title="Ingredients" content={item.beerIngredients} />
+              <Accordion title="Ingredients" content={item.beerIngredientsEN} />
             </div>
           </div>
         );
